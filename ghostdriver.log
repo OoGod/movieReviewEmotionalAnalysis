@@ -1,12 +1,12 @@
-[INFO  - 2019-03-25T07:38:25.914Z] GhostDriver - Main - running on port 44585
-[INFO  - 2019-03-25T07:38:26.852Z] Session [fa262a00-4ed0-11e9-9b36-d36e3ba930ae] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2019-03-25T07:38:26.852Z] Session [fa262a00-4ed0-11e9-9b36-d36e3ba930ae] - page.customHeaders:  - {}
-[INFO  - 2019-03-25T07:38:26.852Z] Session [fa262a00-4ed0-11e9-9b36-d36e3ba930ae] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2019-03-25T07:38:26.852Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fa262a00-4ed0-11e9-9b36-d36e3ba930ae
-[ERROR - 2019-03-25T07:38:27.718Z] Session [fa262a00-4ed0-11e9-9b36-d36e3ba930ae] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+[INFO  - 2019-03-25T07:45:41.936Z] GhostDriver - Main - running on port 50341
+[INFO  - 2019-03-25T07:45:42.875Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-03-25T07:45:42.875Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.customHeaders:  - {}
+[INFO  - 2019-03-25T07:45:42.875Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-03-25T07:45:42.875Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fe09fe70-4ed1-11e9-8861-1734e7e94626
+[ERROR - 2019-03-25T07:45:43.679Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-25T07:38:27.718Z] Session [fa262a00-4ed0-11e9-9b36-d36e3ba930ae] - page.onError - stack:
+[ERROR - 2019-03-25T07:45:43.679Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.onError - stack:
   onpopstate (https://img3.doubanio.com/misc/mixed_static/670c419523675268.js:108)
 
   phantomjs://platform/console++.js:263 in error

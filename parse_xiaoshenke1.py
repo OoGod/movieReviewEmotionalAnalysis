@@ -40,23 +40,23 @@ while i<1:
         num = i*20+k+1
         print(num)
         #用户姓名
-        name = elem1[k].get_attribute("title").encode('utf-8')
+        name = elem1[k].get_attribute("title")
         print(name)
         #超链接
-        href = elem1[k].get_attribute("href").encode('utf-8')
+        href = elem1[k].get_attribute("href")
         print(href)
         #用户评分及内容
-        score = elem2[k].get_attribute("class").encode('utf-8')
+        score = elem2[k].get_attribute("class")
         print(score)
-        content = elem2[k].get_attribute("title").encode('utf-8')
+        content = elem2[k].get_attribute("title")
         print(content)
         #有用数
-        useful = elem3[k].text.encode('utf-8')
+        useful = elem3[k].text
         print(useful)
         #日期
-        date = elem4[k].text.encode('utf-8')
+        date = elem4[k].text
         #评论
-        shortcon = elem5[k].text.encode('utf-8')
+        shortcon = elem5[k].text
         print(shortcon)
 
         #写入文件
