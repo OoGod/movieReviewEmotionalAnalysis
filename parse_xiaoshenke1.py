@@ -17,7 +17,7 @@ writer.writerow(['序号','用户名','链接','评分','评分标题','有用�
 #打开Firefox浏览器 设定等待加载时间 访问URL  
 driver = webdriver.PhantomJS()
 i = 0
-while i<1:
+while i<10:
     num = i*20
     url = "https://movie.douban.com/subject/1292052/comments?start=" + str(num) +"&limit=20&sort=new_score&status=P"
     print(url)

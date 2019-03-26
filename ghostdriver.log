@@ -1,12 +1,75 @@
-[INFO  - 2019-03-25T07:45:41.936Z] GhostDriver - Main - running on port 50341
-[INFO  - 2019-03-25T07:45:42.875Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2019-03-25T07:45:42.875Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.customHeaders:  - {}
-[INFO  - 2019-03-25T07:45:42.875Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2019-03-25T07:45:42.875Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fe09fe70-4ed1-11e9-8861-1734e7e94626
-[ERROR - 2019-03-25T07:45:43.679Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+[INFO  - 2019-03-26T09:21:10.271Z] GhostDriver - Main - running on port 51295
+[INFO  - 2019-03-26T09:21:11.192Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-03-26T09:21:11.192Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.customHeaders:  - {}
+[INFO  - 2019-03-26T09:21:11.192Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-03-26T09:21:11.192Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7ecb8d40-4fa8-11e9-9096-3361ed539642
+[ERROR - 2019-03-26T09:21:12.220Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
 
   phantomjs://platform/console++.js:263 in error
-[ERROR - 2019-03-25T07:45:43.679Z] Session [fe09fe70-4ed1-11e9-8861-1734e7e94626] - page.onError - stack:
+[ERROR - 2019-03-26T09:21:12.220Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
   onpopstate (https://img3.doubanio.com/misc/mixed_static/670c419523675268.js:108)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:13.787Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:13.787Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://img3.doubanio.com/misc/mixed_static/5e3315f73edcad2f.js:108)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:15.341Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:15.341Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=40&limit=20&sort=new_score&status=P:1183)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:16.823Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:16.823Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=60&limit=20&sort=new_score&status=P:1190)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:18.317Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:18.317Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=80&limit=20&sort=new_score&status=P:1183)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:19.769Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:19.769Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=100&limit=20&sort=new_score&status=P:1187)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:21.336Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:21.336Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=120&limit=20&sort=new_score&status=P:1192)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:22.766Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:22.767Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=140&limit=20&sort=new_score&status=P:1186)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:24.268Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:24.268Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=160&limit=20&sort=new_score&status=P:1187)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:25.911Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - msg: TypeError: null is not an object (evaluating 'pageState.percent_type')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-03-26T09:21:25.911Z] Session [7ecb8d40-4fa8-11e9-9096-3361ed539642] - page.onError - stack:
+  onpopstate (https://movie.douban.com/subject/1292052/comments?start=180&limit=20&sort=new_score&status=P:1183)
 
   phantomjs://platform/console++.js:263 in error
