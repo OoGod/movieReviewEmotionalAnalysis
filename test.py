@@ -3,7 +3,7 @@ from snownlp import SnowNLP
 import codecs
 import os
 
-source = open("data.txt","r")
+source = open("data.txt","r",encoding='utf-8')
 line = source.readlines()
 sentimentslist = []
 for i in line:
