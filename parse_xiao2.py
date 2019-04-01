@@ -28,11 +28,11 @@ while i<1:
         driver1.get(str(link))
         soup = bs(driver1.page_source,'lxml')
         con = soup.find_all("div",{"class":"review-content clearfix"})
-            reviews += con
+        reviews += con
         print(con)
-             
-        
+
     i = i + 1
+
 with open('review.txt','w') as f:
     f.write(con)
     print("评论已写入文件review.txt")
