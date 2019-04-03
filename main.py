@@ -6,16 +6,37 @@ from pylab import mpl
 import numpy as np
 import csv
 import jieba
+import requests
+import json
 import sys
 
 
 class reviewsAnalysis(object):
 
-    def __init__(self,url):
-        self.url = url
+    def __init__(self,name):
+        self.url = "https://movie.douban.com/subject/{}/comments?start={}&limit=20&sort=new_score&status=P"
+        self.search_url = 'https://movie.douban.com/j/subject_suggest?q={}'
+        self.name = name
         pass
 
-    def parse_save(self):
+    def search(self):
+        response = requests.get(self.search_url.format(self.name))
+        namelist = json.loads(response.text)
+        x = 0
+        print('id\tname')
+        list_a = []
+        for i in namelist:
+            print('%s\t%s' % (x, i['title']))
+            dict_a = {x: i['title']}
+            list_a.append(dict_a)
+            x += 1
+        print(list_a)
+        print("您想要的查询结果可能是可能是这些，请输入id进行查询")
+        input_id = sys.stdin.readline().strip()
+        movie_id = namelist[int(input_id)]['id']
+        return movie_id
+
+    def parse_save(self,movie_id):
         '''
         爬取评论并且保存到test-douban.csv中
         :return:
@@ -32,7 +53,7 @@ class reviewsAnalysis(object):
             num = i * 20
             # url = "https://movie.douban.com/subject/1292052/comments?start=" + str(
             #     num) + "&limit=20&sort=new_score&status=P"
-            url = self.url.format(str(num))
+            url = self.url.format(int(movie_id),str(num))
             print(url)
             driver.get(url)
             # 用户姓名 超链接
@@ -182,7 +203,8 @@ class reviewsAnalysis(object):
         对评论相关数据进行爬取，并保存到文件中
         :return:
         '''
-        self.parse_save()
+        movie_id = self.search()
+        self.parse_save(movie_id)
         self.save()
         pass
 
@@ -190,8 +212,9 @@ class reviewsAnalysis(object):
 if __name__ == '__main__':
 
     # url = sys.stdin.readline().strip()
-    url = "https://movie.douban.com/subject/1292052/comments?start={}&limit=20&sort=new_score&status=P"
-    xiaoShenKe = reviewsAnalysis(url)
+    # url = "https://movie.douban.com/subject/1292052/comments?start={}&limit=20&sort=new_score&status=P"
+    name = sys.argv[1]
+    xiaoShenKe = reviewsAnalysis(name)
     #xiaoShenKe.fenci()
     #xiaoShenKe.analysis()
     xiaoShenKe.analysis_wave()
